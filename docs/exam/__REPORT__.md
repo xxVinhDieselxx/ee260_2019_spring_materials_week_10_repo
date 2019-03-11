@@ -29,15 +29,15 @@ Trace the behavior of an 8-bit parallel load register with 8-bit input I, 8-bit 
 ![](figures/problem_6.png)
 
 # (5 pts)
-Draw the gate level design of a 1-bit full adder. Draw the schematic of a 8-bit carry-ripple adder using eight 1-bit full adder. Assuming AND gates have a delay of 2 ns, OR gates have a delay of 1 ns, and XOR gates have a delay of 3 ns, compute the longest time required to add two numbers using an 8-bit carry-ripple adder.
+Draw the gate level design of a 1-bit full adder. Draw the schematic of a 8-bit carry-ripple adder using eight 1-bit full adders. Assuming AND gates have a delay of 2 ns, OR gates have a delay of 1 ns, and XOR gates have a delay of 3 ns, compute the longest time required to add two numbers using an 8-bit carry-ripple adder.
 
 # (5 pts) 
 Use magnitude comparators and logic to design a circuit that computes the minimum of three 8-bit numbers.
 
 # (5 pts)
-Your boss has asked you to design a comparator for three-bit 2’s complement numbers. A[0:2] and B[0:2] are both 2’s complement numbers with A2 and B2 being the MSBs. If A > B then GT should be 1 and the other outputs 0. If A < B then LT should be 1 and every other output 0. If A=B then EQ should be 1 and every other output 0.  
+In a mirror universe, you are asked to design a comparator for three-bit 2’s complement numbers. A[0:2] and B[0:2] are both 2’s complement numbers with A2 and B2 being the MSBs. If A > B then LT should be 1 and the other outputs 0. If A < B then GT should be 1 and every other output 0. If A=B then EQ should be 1 and every other output 0.  
 
 - a.	List the following 3-bit 2’s complement numbers in order from smallest to largest: 111, 101, 011, 010, 100.
-- b.	Write the logic equations for GT, EQ and LT. Be sure to circle your final answer. Be sure you have also circled any intermediate values (nodes) you are using in your final answer.
+- b.	Write the logic equations for LT, EQ and GT. Be sure to circle your final answer. Be sure you have also circled any intermediate values (nodes) you are using in your final answer.
 
 ![](./figures/problem_9.png)
