@@ -17,6 +17,8 @@ A circuit has an input X that is connected to the input of a D flip-flop. Using 
 # (5 pts)
 Implement the previous design in Verilog. Verify the design with a testbench with a sequence of input D.
 
+![](https://github.com/ee260-spring-2019/exam-01-xxVinhDieselxx/blob/master/docs/exam/IMG_0715.jpg)
+
 # (5 pts)
 Draw a state diagram for an FSM with no inputs and three outputs x, y, and z. xyzshould always exhibit the following sequence: 000, 001, 010, 100, repeat. The output should change only on a rising clock edge. Make 000 the initial state.
 
